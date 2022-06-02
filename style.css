@@ -1,1 +1,28 @@
+body {
+  background: #000;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
 
+h1 {
+  font-size: 22px;
+  color: white;
+  font-weight: 800;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+}
+
+.content{
+  width: 550px;
+  height: 550px;
+  background: white;
+}
+
+.main{
+  height: 260px;
+  background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
