@@ -17,15 +17,15 @@ let ibsToKg = inpNumber / 2.2;
 
 // Output Functions
 function convToLength(){
-convLength.textContent = `${inpNumber} meters = ${ftToM} feet | ${inpNumber} feet = ${mToFt} meters `
+convLength.textContent = `${inpNumber} meters = ${ftToM.toFixed(3)} feet | ${inpNumber} feet = ${mToFt.toFixed(3)} meters `
 }
 
 function convToVolume(){
-convVolume.textContent = `${inpNumber} liters = ${ltToGal} gallons | ${inpNumber} gallons = ${galToLt} liters`
+convVolume.textContent = `${inpNumber} liters = ${ltToGal.toFixed(3)} gallons | ${inpNumber} gallons = ${galToLt.toFixed(3)} liters`
 }
 
 function convToMass(){
-convMass.textContent = `${inpNumber} kilos = ${kgToIbs} pounds | ${inpNumber} pounds = ${ibsToKg} kilos`
+convMass.textContent = `${inpNumber} kilos = ${kgToIbs.toFixed(3)} pounds | ${inpNumber} pounds = ${ibsToKg.toFixed(3)} kilos`
 }
 
 convToLength();
