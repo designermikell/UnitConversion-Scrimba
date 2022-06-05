@@ -1,4 +1,4 @@
-let inpNumber = parseInt(prompt("Enter a number for conversion."));
+// let inpNumber = parseInt(prompt("Enter a number for conversion."));
  //converting string to number.
 let covNumber = document.getElementById("number");
 let convLength = document.getElementById("convLength");
