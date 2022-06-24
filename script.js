@@ -1,10 +1,15 @@
-// let inpNumber = parseInt(prompt("Enter a number for conversion."));
- //converting string to number.
+let inpNumber;
+
+function inpConversion(){
+    inpNumber = document.getElementById("inpNumber").value;
+    return inpNumber;
+}
+
+//converting string to number.
 let covNumber = document.getElementById("number");
 let convLength = document.getElementById("convLength");
 let convVolume = document.getElementById("convVolume");
 let convMass = document.getElementById("convMass");
-
 
 
  //Conversion for Length
